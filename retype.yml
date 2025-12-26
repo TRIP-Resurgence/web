@@ -8,8 +8,8 @@ start:
   # pro: true
 
 branding:
-  title: Project Name
-  label: Docs
+  title: This is a Test.
+  label: ABC
 
 links:
   - text: Test Link
