@@ -19,3 +19,7 @@ jobs:
       - uses: retypeapp/action-github-pages@latest
         with:
           update-branch: true
+
+# Retype Config
+branding:
+  title: The TRIP Resurgence
