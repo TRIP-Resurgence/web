@@ -1,0 +1,19 @@
+input: .
+output: .retype
+
+url: tripresurgence.org # Use your website address here
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  title: Project Name
+  label: Docs
+
+links:
+  - text: Test Link
+    link: https://google.com
+
+footer:
+  copyright: "&copy; Copyright The TRIP Resurgence {{ year }}. All rights reserved."
