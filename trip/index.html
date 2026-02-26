@@ -10,33 +10,29 @@
     <meta name="generator" content="Retype 4.0.1">
 
     <!-- Primary Meta Tags -->
-    <title>Bringing TRIP back</title>
-    <meta name="title" content="Bringing TRIP back">
-    <meta name="description" content="The TRIP Resurgence project aims to rescue an old forgotten IETF protocol called TRIP (Telephone Routing over IP) that was imagined by the designers of">
+    <title>The TRIP Protocol</title>
+    <meta name="title" content="The TRIP Protocol">
+    <meta name="description" content="The Telephony Routing over IP protocol, RFC 3219, is an application layer policy-based dynamic routing protocol for telephone prefixes very similar to how">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://tripresurgence.org/">
+    <link rel="canonical" href="https://tripresurgence.org/trip/">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tripresurgence.org/">
-    <meta property="og:title" content="Bringing TRIP back">
-    <meta property="og:description" content="The TRIP Resurgence project aims to rescue an old forgotten IETF protocol called TRIP (Telephone Routing over IP) that was imagined by the designers of">
-    <meta property="og:image" content="https://tripresurgence.org/static/lunrox.svg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Bringing TRIP back">
+    <meta property="og:url" content="https://tripresurgence.org/trip/">
+    <meta property="og:title" content="The TRIP Protocol">
+    <meta property="og:description" content="The Telephony Routing over IP protocol, RFC 3219, is an application layer policy-based dynamic routing protocol for telephone prefixes very similar to how">
     <meta property="og:site_name" content="TRIP Resurgence">
     <meta property="og:locale" content="en_US">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link id="retype-favicon" rel="icon" href="static/logo.png" />
-    <link href="resources/css/retype.css?v=4.0.1.825427073893" rel="stylesheet">
+    <link id="retype-favicon" rel="icon" href="../static/logo.png" />
+    <link href="../resources/css/retype.css?v=4.0.1.825427073893" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.0.1.825427073893" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.0.1.825427073893" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.0.1.825427073893" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.0.1.825427073893" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +47,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="" class="flex items-center leading-snug text-xl">
+                    <a id="retype-branding-logo" href="../" class="flex items-center leading-snug text-xl">
                         <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="static/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="static/logo.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="../static/logo.png">
+                            <img class="max-h-10 hidden dark:inline-block" src="../static/logo.png">
                         </span>
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">TRIP Resurgence</span>
                     </a>
@@ -162,42 +158,20 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="bringing-trip-back" class="break-words">
+<doc-anchor-target id="the-trip-protocol" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#bringing-trip-back">#</doc-anchor-trigger>
-        <span>Bringing TRIP back</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-trip-protocol">#</doc-anchor-trigger>
+        <span>The TRIP Protocol</span>
     </h1>
 </doc-anchor-target>
-<p>The TRIP Resurgence project aims to rescue an old forgotten IETF protocol called
-TRIP (Telephone Routing over IP) that was imagined by the designers of SIP,
-the VoIP protocol.</p>
-<p>The project came around as a member of (UwUtel)[https://lunrox.co.uk] shared this protocol on the community,
-and other members that liked the idea of using TRIP for telephone routing in UwUtel,
-including the admin.</p>
-<p>Unfortunately this protocol never caught on in the world of Telcos, and there is
-only one publicly available archived implementation of it (others were known but are lost to time now).
-So we have to implement a TRIP Routing Daemon (or Location Server in TRIP terms) ourselves.
-This is the main project.</p>
-<doc-anchor-target id="sponsored-by">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#sponsored-by">#</doc-anchor-trigger>
-        <span>Sponsored by</span>
-    </h2>
-</doc-anchor-target>
-<p><figure class="content-center">
-    <a href="https://lunrox.co.uk">
-        <img src="static/lunrox.svg" alt="Lunrox Communications" class="rounded-image-rounded border-image-border border-image-border-width" />
-    </a>
-    <figcaption class="caption">Lunrox Communications</figcaption>
-</figure>
-</p>
-<p><figure class="content-center">
-    <a href="https://arf20.com">
-        <img src="static/arfnet.png" alt="ARFNET Internet Services" class="rounded-image-rounded border-image-border border-image-border-width" />
-    </a>
-    <figcaption class="caption">ARFNET Internet Services</figcaption>
-</figure>
-</p>
+<p>The Telephony Routing over IP protocol, RFC 3219, is an application layer policy-based
+dynamic routing protocol for telephone prefixes very similar to how BGP is for
+network prefixes.</p>
+<p><a href="https://datatracker.ietf.org/doc/html/rfc3219">RFC 3219</a></p>
+<p>TRIP has similar sessions, messages, attributes and route selection algorithm to BGP.</p>
+<p>It first appeared in the IETF in 2001, as a real alternative for routing in
+telephone networks.</p>
+<p>TODO</p>
 
                 
                 <!-- Required only on API pages -->
@@ -207,16 +181,16 @@ This is the main project.</p>
             
                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                     <div class="w-1/2">
+                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../tripd/install/">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                            <span>
+                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                <span class="block mt-1">Installation</span>
+                            </span>
+                        </a>
                     </div>
             
                     <div class="w-1/2">
-                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="tripd/">
-                            <span>
-                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                <span class="block mt-1">tripd</span>
-                            </span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                        </a>
                     </div>
                 </nav>
             </footer>
@@ -227,7 +201,7 @@ This is the main project.</p>
                 <div id="retype-footer-links" class="print:hidden">
                     <ul class="flex flex-wrap items-center text-sm">
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="licence">Licence</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="../licence">Licence</a>
                         </li>
                     </ul>
                 </div>
@@ -260,6 +234,6 @@ This is the main project.</p>
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Bringing TRIP back", isRoot: true, level: 0, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "The TRIP Protocol", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
