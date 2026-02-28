@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825552537678">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.0.1.825601011828">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.0.1">
@@ -32,11 +32,13 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="static/logo.png" />
-    <link href="resources/css/retype.css?v=4.0.1.825552537678" rel="stylesheet">
+    <link href="resources/css/retype.css?v=4.0.1.825601011828" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.0.1.825552537678" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=4.0.1.825601011828" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=4.0.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.0.1.825552537678" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.0.1.825601011828" data-turbo-eval="false" defer></script>
+
+    <meta property="og:image" content="https://tripresurgence.org/static/logo.png">
 
     <style>
         html.dark {
@@ -44,12 +46,16 @@
                 display: none;
             }
         }
-            html:not(.dark) {
+        html:not(.dark) {
                 figure:has(.hide-in-lightmode) {
                     display: none;
                 }
-            }
+        }
+        .mw-50rem {
+            max-width: 50rem;
+        }
     </style>
+
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -198,13 +204,13 @@ This is the main project.</p>
     </h2>
 </doc-anchor-target>
 <p><figure class="content-center">
-    <a href="https://lunrox.co.uk" class="hide-in-darkmode">
+    <a href="https://lunrox.co.uk" class="hide-in-darkmode mw-50rem">
         <img src="static/lunrox.png" alt="Lunrox Communications" class="rounded-image-rounded border-image-border border-image-border-width" />
     </a>
     <figcaption class="caption">Lunrox Communications</figcaption>
 </figure>
 <figure class="content-center">
-    <a href="https://lunrox.co.uk" class="hide-in-lightmode">
+    <a href="https://lunrox.co.uk" class="hide-in-lightmode mw-50rem">
         <img src="static/lunrox_dark.png" alt="Lunrox Communications" class="rounded-image-rounded border-image-border border-image-border-width" />
     </a>
     <figcaption class="caption">Lunrox Communications</figcaption>
