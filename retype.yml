@@ -10,9 +10,11 @@ branding:
 
 links:
   - text: Routing Daemon
-    link: https://tripresurgence.org/tripd/tripd.md
+    link: https://tripresurgence.org/tripd/
+  - text: Docs
+    link: https://docs.tripresurgence.org/
   - text: TRIP
-    link: https://tripresurgence.org/trip/history.md
+    link: https://tripresurgence.org/trip/
   - text: Releases
     link: https://tripresurgence.org/tripd/releases.md
   - text: Git
@@ -23,7 +25,8 @@ footer:
   links:
     - text: Licence
       link: /LICENCE
+    - text: Github
+      link: https://github.com/TRIP-Resurgence
 
 favicon: /static/logo.png
-
 
