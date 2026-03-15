@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826858397762">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826900716424">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.2.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>TRIP: The Battle for Telephone Routing in the Internet Age</title>
     <meta name="title" content="TRIP: The Battle for Telephone Routing in the Internet Age">
-    <meta name="description" content="A TRIP down memory lane. Piecing together the history of Telephony Routing over IP (TRIP)">
+    <meta name="description" content="Authors: arf20, Amdaith">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://tripresurgence.org/trip/history/">
@@ -21,18 +21,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tripresurgence.org/trip/history/">
     <meta property="og:title" content="TRIP: The Battle for Telephone Routing in the Internet Age">
-    <meta property="og:description" content="A TRIP down memory lane. Piecing together the history of Telephony Routing over IP (TRIP)">
+    <meta property="og:description" content="Authors: arf20, Amdaith">
+    <meta property="og:image" content="https://tripresurgence.org/static/timeline.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="TRIP: The Battle for Telephone Routing in the Internet Age">
     <meta property="og:site_name" content="TRIP Resurgence">
     <meta property="og:locale" content="en_US">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/logo.png" />
-    <link href="../../resources/css/retype.css?v=4.2.0.826858397762" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.2.0.826900716424" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.2.0.826858397762" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.2.0.826900716424" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.2.0.826858397762" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.2.0.826900716424" data-turbo-eval="false" defer></script>
 
     <meta property="og:image" content="https://tripresurgence.org/static/logo.png">
 
@@ -189,10 +193,12 @@
         <span>TRIP: The Battle for Telephone Routing in the Internet Age</span>
     </h1>
 </doc-anchor-target>
+<p>Authors: arf20, Amdaith</p>
 <p>A TRIP down memory lane.
 Piecing together the history of Telephony Routing over IP (TRIP)</p>
-<p>TRIP was published in 2001 by Jonathan Rosenberg, who also authored the SIP protocol,
+<p>The framework was published in 2001 by Jonathan Rosenberg, who also authored the SIP protocol,
 and Henning Schulzrinne from Columbia University.</p>
+<p>And the TRIP protocol in 2002 by J. Rosenberg, Dr. Hussein F. Salama, and Matt Squire.</p>
 <p>The idea behind TRIP was how to route telephone calls over the internet by
 having gateways advertise which number blocks they can either serve or route calls
 to via another gateway. TRIP was inspired by BGP and was a nethead <sup>[12]</sup> way of thinking.
@@ -200,7 +206,28 @@ However, in this case,
 the bellheads won - for now. We’ll come back to this later.</p>
 <p>The framework was originally described in RFC2871 and the protocol detailed in RFC3219.
 Later additions to the protocol included RFC5115 and RFC5140.</p>
-<p>TODO: timeline</p>
+<doc-anchor-target id="timeline">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#timeline">#</doc-anchor-trigger>
+        <span>Timeline</span>
+    </h2>
+</doc-anchor-target>
+<style>
+.scroll {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+.scroll-container img {
+  padding: 10px;
+}
+</style>
+<div class="scroll"><p><figure class="content-center">
+    <img src="../../static/timeline.svg" alt="Timeline" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Timeline</figcaption>
+</figure>
+</p>
+</div>
 <doc-anchor-target id="implementations">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#implementations">#</doc-anchor-trigger>
@@ -217,8 +244,8 @@ wont build on modern linux, as Asterisk people tried it and failed<sup>[18]</sup
 There is a published book/manual about VOCAL<sup>[11]</sup>
 A Asterisk TRIP implementation never materialized.
 This implementation is written in C++98 and the code quality is kind of bad.</p>
-<p>This TRIP stack, along with some other stacks, was a contribution for VOCAL by a company called
-Cathay Networks Inc., a large-scale VoIP company funded in 2000 in California by Jason Fischl, which went inactive in 2006.
+<p>Cathay Networks Inc., a large-scale VoIP company funded in 2000 in California by Jason Fischl,
+provided professional support for VOCAL, went inactive in 2006.
 Vovida also went offline in 2007. We couldn&#x27;t find a link between H. Schulzrinne and Vovida, but
 a possible link between J. Rosenberg and Cullen Jennings from Vovida as Rosenberg was a vicepresident of Cisco’s Collaboration Technology Group
 around the time Cisco aquired Vovida in 1999<sup>[14][26]</sup> .</p>
@@ -243,7 +270,8 @@ VoIP purposes<sup>[27][28]</sup> , as ITAD Subscriber Numbers (ISNs)<sup>[29]</s
 <p>ISNs are a fast, easy and free way to have globally unique email-like numbers
 in the form of subscriber*ITAD, a most nethead approach to telephony. This makes
 them a little bit fiddly to implement in dialplans.</p>
-<p>It was started by John Todd in 2006 who registered the first ITAD ever (256), and from that point ITAD registrations in IANA
+<p>It was started by John Todd in 2006 who registered the first ITAD ever (256) in 2004,
+and from that point ITAD registrations in IANA
 skyrocketed by companies and individuals for a time until the project went defunct in 2016<sup>[30]</sup> .
 So most ITAD numbers could be atributed to this project. There were at most ~1700 freenum users at one point.</p>
 <p>Post inquiring about the deployment of TRIP and the Freenum project from its author in 2008<sup>[19]</sup> .</p>
@@ -313,39 +341,40 @@ because we can.</p>
     </h2>
 </doc-anchor-target>
 <ul>
-<li><sup>[1]</sup> [RFC 1771 (1995) A Border Gateway Protocol 4 (BGP-4)](<a href="https://datatracker.ietf.org/doc/html/rfc1771">https://datatracker.ietf.org/doc/html/rfc1771</a>)</li>
-<li><sup>[2]</sup> [RFC 2871 (2000) A Framework for Telephony Routing over IP](<a href="https://datatracker.ietf.org/doc/html/rfc2871">https://datatracker.ietf.org/doc/html/rfc2871</a>)</li>
-<li><sup>[3]</sup> [RFC 3219 (2002) Telephony Routing over IP (TRIP)](<a href="https://datatracker.ietf.org/doc/html/rfc3219">https://datatracker.ietf.org/doc/html/rfc3219</a>)</li>
-<li><sup>[4]</sup> [RFC 5115 (2008) Telephony Routing over IP (TRIP) Attribute for Resource Priority](<a href="https://datatracker.ietf.org/doc/html/rfc5115">https://datatracker.ietf.org/doc/html/rfc5115</a>)</li>
-<li><sup>[5]</sup> [RFC 5140 (2008) A Telephony Gateway Registration Protocol (TGREP)](<a href="https://datatracker.ietf.org/doc/html/rfc5140">https://datatracker.ietf.org/doc/html/rfc5140</a>)</li>
-<li><sup>[6]</sup> [Vovida Networks (2003) VOCAL](<a href="https://web.archive.org/web/20070918023126/http://www.vovida.org/downloads/vocal/1.5.0/vocal-1.5.0.tar.gz">https://web.archive.org/web/20070918023126/http://www.vovida.org/downloads/vocal/1.5.0/vocal-1.5.0.tar.gz</a>) C++98 TRIP implementation, almost lost media</li>
-<li><sup>[7]</sup> [Columbia University TRIP implementation documentation](<a href="https://www.cs.columbia.edu/%7Ehgs/research/projects/TRIP-LS/TRIP.html">https://www.cs.columbia.edu/~hgs/research/projects/TRIP-LS/TRIP.html</a>) code is lost media</li>
-<li><sup>[8]</sup> [Cisco (2000) TRIP Tutorial at Packetizer.com](<a href="https://www.packetizer.com/voip/trip/">https://www.packetizer.com/voip/trip/</a>)</li>
-<li><sup>[9]</sup> [Matthew C. Schlesener (2002) Performance Evaluation of Telephony Routing over IP (TRIP)](<a href="http://ittc.ku.edu/research/thesis/documents/matt_schlesener_thesis.pdf">http://ittc.ku.edu/research/thesis/documents/matt_schlesener_thesis.pdf</a>)</li>
-<li><sup>[10]</sup> [Nicklas Beijar (2001) TRIP, ENUM and Number Portability](<a href="https://www.netlab.tkk.fi/opetus/s38130/k01/Papers/Beijar-TripEnumNp.pdf">https://www.netlab.tkk.fi/opetus/s38130/k01/Papers/Beijar-TripEnumNp.pdf</a>)</li>
-<li><sup>[11]</sup> [David Kelly, O&#x27;Reilly (2002) Practical VoIP: Using VOCAL](<a href="https://archive.org/details/practicalvoipusi00dang_0">https://archive.org/details/practicalvoipusi00dang_0</a>)</li>
-<li><sup>[12]</sup> [Netheads vs Bellheads (1996)](<a href="https://archive.ph/iICmr#selection-507.0-507.21">https://archive.ph/iICmr#selection-507.0-507.21</a>)</li>
-<li><sup>[13]</sup> [Netheads vs. bellheads redux: the strange victory of SIP over the telephone network (2023)](<a href="https://www.devever.net/%7Ehl/sip-victory">https://www.devever.net/~hl/sip-victory</a>)</li>
-<li><sup>[14]</sup> [Cullen at Cisco](<a href="https://weare.cisco.com/c/r/weare/amazing-stories/amazing-people/cullen-jennings.html">https://weare.cisco.com/c/r/weare/amazing-stories/amazing-people/cullen-jennings.html</a>)</li>
-<li><sup>[15]</sup> [TRIP](<a href="https://www.voip-info.org/trip/">https://www.voip-info.org/trip/</a>)</li>
-<li><sup>[16]</sup> [Past Projects at Columbia University](<a href="https://myprojectguide.kundansingh.com/node/7">https://myprojectguide.kundansingh.com/node/7</a>)</li>
-<li><sup>[17]</sup> [Integrating TRIP with sipd](<a href="https://web.archive.org/web/20111107010503/http://www.cs.columbia.edu/%7Ekns10/projects/fall2002/trip/">https://web.archive.org/web/20111107010503/http://www.cs.columbia.edu/~kns10/projects/fall2002/trip/</a>)</li>
-<li><sup>[18]</sup> [Re: \[Asterisk-Users\] TRIP / RFC2871](<a href="http://lists.digium.com/pipermail/asterisk-dev/2003-March/000114.html">http://lists.digium.com/pipermail/asterisk-dev/2003-March/000114.html</a>)</li>
-<li><sup>[19]</sup> [Re: TRIP deployment?](<a href="https://archive.nanog.org/mailinglist/mailarchives/old_archive/2008-12/msg00085.html">https://archive.nanog.org/mailinglist/mailarchives/old_archive/2008-12/msg00085.html</a>)</li>
-<li><sup>[20]</sup> [Implementing Intelligent Network Services in VoIP Application with SIP, TRIP and ENUM This paper describes the problem of Implementing Intelligent Network Services in VoIP application with SIP (Signalling protocol), TRIP (Routing protocol over IP) and ENUM](<a href="https://www.researchgate.net/publication/346272717_Implementing_Intelligent_Network_Services_in_VoIP_Application_with_SIP_TRIP_and_ENUM_This_paper_describes_the_problem_of_Implementing_Intelligent_Network_Services_in_VoIP_application_with_SIP_Signalli">https://www.researchgate.net/publication/346272717_Implementing_Intelligent_Network_Services_in_VoIP_Application_with_SIP_TRIP_and_ENUM_This_paper_describes_the_problem_of_Implementing_Intelligent_Network_Services_in_VoIP_application_with_SIP_Signalli</a>)</li>
-<li><sup>[21]</sup> [Vovida FM docs rendered to PDF](<a href="https://archive.org/details/vovida-trip">https://archive.org/details/vovida-trip</a>)</li>
-<li><sup>[22]</sup> [Cisco IOS Voice Command Reference](<a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr5/vcr5-cr-book/vcr-t1.html#wp1140089459">https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr5/vcr5-cr-book/vcr-t1.html#wp1140089459</a>)</li>
-<li><sup>[23]</sup> [Columbia TRIP sipd](<a href="https://www.cs.columbia.edu/%7Ehgs/research/projects/TRIP-sipd/">https://www.cs.columbia.edu/~hgs/research/projects/TRIP-sipd/</a>)</li>
-<li><sup>[24]</sup> [Columbia TRIP Final Report](<a href="http://www.cs.columbia.edu/%7Ehgs/research/projects/TRIP/TRIP_Report.html">http://www.cs.columbia.edu/~hgs/research/projects/TRIP/TRIP_Report.html</a>)</li>
-<li><sup>[25]</sup> [Requesting ITAD](<a href="https://web.archive.org/web/20130127131852/http://www.freenum.org/cookbook/#requesting-an-itad-for-your-domain">https://web.archive.org/web/20130127131852/http://www.freenum.org/cookbook/#requesting-an-itad-for-your-domain</a>)</li>
-<li><sup>[26]</sup> [Cisco acquiring Vovida](<a href="https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2000/m09/cisco-systems-to-acquire-vovida-networks-and-ipcell-technologies.html">https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2000/m09/cisco-systems-to-acquire-vovida-networks-and-ipcell-technologies.html</a>)</li>
-<li><sup>[27]</sup> [Freenum.org](<a href="https://web.archive.org/web/20130128052042/http://www.freenum.org/">https://web.archive.org/web/20130128052042/http://www.freenum.org/</a>)</li>
-<li><sup>[28]</sup> [The Freenum/ISN Cookbook 2007-10-25](<a href="https://web.archive.org/web/20121213000530/http://freenum.org/cookbook/">https://web.archive.org/web/20121213000530/http://freenum.org/cookbook/</a>)</li>
-<li><sup>[29]</sup> [ITAD Subscriber Numbers](<a href="https://en.wikipedia.org/wiki/ITAD_Subscriber_Numbers">https://en.wikipedia.org/wiki/ITAD_Subscriber_Numbers</a>)</li>
-<li><sup>[30]</sup> [IANA Registry](<a href="https://www.iana.org/assignments/trip-parameters/trip-parameters.xml#table-trip-parameters-5">https://www.iana.org/assignments/trip-parameters/trip-parameters.xml#table-trip-parameters-5</a>)</li>
-<li><sup>[31]</sup> [CTRIP](<a href="http://www.netlab.tkk.fi/tutkimus/imelio/papers/VOIP/cocom09f-00wpic.pdf">http://www.netlab.tkk.fi/tutkimus/imelio/papers/VOIP/cocom09f-00wpic.pdf</a>)</li>
-<li><sup>[32]</sup> [Shaun Ewing on e164.org](<a href="https://se.au/notes/e164org/">https://se.au/notes/e164org/</a>)</li>
-<li><sup>[33]</sup> [e164.org](<a href="https://web.archive.org/web/20120613230535/http://www.e164.org/">https://web.archive.org/web/20120613230535/http://www.e164.org/</a>)</li>
+<li><sup>[1]</sup> <a href="https://datatracker.ietf.org/doc/html/rfc1771">RFC 1771 (1995) A Border Gateway Protocol 4 (BGP-4)</a></li>
+<li><sup>[2]</sup> <a href="https://datatracker.ietf.org/doc/html/rfc2871">RFC 2871 (2000) A Framework for Telephony Routing over IP</a></li>
+<li><sup>[3]</sup> <a href="https://datatracker.ietf.org/doc/html/rfc3219">RFC 3219 (2002) Telephony Routing over IP (TRIP)</a></li>
+<li><sup>[4]</sup> <a href="https://datatracker.ietf.org/doc/html/rfc5115">RFC 5115 (2008) Telephony Routing over IP (TRIP) Attribute for Resource Priority</a></li>
+<li><sup>[5]</sup> <a href="https://datatracker.ietf.org/doc/html/rfc5140">RFC 5140 (2008) A Telephony Gateway Registration Protocol (TGREP)</a></li>
+<li><sup>[6]</sup> <a href="https://web.archive.org/web/20070918023126/http://www.vovida.org/downloads/vocal/1.5.0/vocal-1.5.0.tar.gz">Vovida Networks (2003) VOCAL</a> C++98 TRIP implementation, almost lost media</li>
+<li><sup>[7]</sup> <a href="https://www.cs.columbia.edu/%7Ehgs/research/projects/TRIP-LS/TRIP.html">Columbia University TRIP implementation documentation</a> code is lost media</li>
+<li><sup>[8]</sup> <a href="https://www.packetizer.com/voip/trip/">Cisco (2000) TRIP Tutorial at Packetizer.com</a></li>
+<li><sup>[9]</sup> <a href="http://ittc.ku.edu/research/thesis/documents/matt_schlesener_thesis.pdf">Matthew C. Schlesener (2002) Performance Evaluation of Telephony Routing over IP (TRIP)</a></li>
+<li><sup>[10]</sup> <a href="https://www.netlab.tkk.fi/opetus/s38130/k01/Papers/Beijar-TripEnumNp.pdf">Nicklas Beijar (2001) TRIP, ENUM and Number Portability</a></li>
+<li><sup>[11]</sup> <a href="https://archive.org/details/practicalvoipusi00dang_0">David Kelly, O&#x27;Reilly (2002) Practical VoIP: Using VOCAL</a></li>
+<li><sup>[12]</sup> <a href="https://archive.ph/iICmr#selection-507.0-507.21">Netheads vs Bellheads (1996)</a></li>
+<li><sup>[13]</sup> <a href="https://www.devever.net/%7Ehl/sip-victory">Netheads vs. bellheads redux: the strange victory of SIP over the telephone network (2023)</a></li>
+<li><sup>[14]</sup> <a href="https://weare.cisco.com/c/r/weare/amazing-stories/amazing-people/cullen-jennings.html">Cullen at Cisco</a></li>
+<li><sup>[15]</sup> <a href="https://www.voip-info.org/trip/">TRIP</a></li>
+<li><sup>[16]</sup> <a href="https://myprojectguide.kundansingh.com/node/7">Past Projects at Columbia University</a></li>
+<li><sup>[17]</sup> <a href="https://web.archive.org/web/20111107010503/http://www.cs.columbia.edu/%7Ekns10/projects/fall2002/trip/">Integrating TRIP with sipd</a></li>
+<li><sup>[18]</sup> <a href="http://lists.digium.com/pipermail/asterisk-dev/2003-March/000114.html">Re: [Asterisk-Users] TRIP / RFC2871</a></li>
+<li><sup>[19]</sup> <a href="https://archive.nanog.org/mailinglist/mailarchives/old_archive/2008-12/msg00085.html">Re: TRIP deployment?</a></li>
+<li><sup>[20]</sup> <a href="https://www.researchgate.net/publication/346272717_Implementing_Intelligent_Network_Services_in_VoIP_Application_with_SIP_TRIP_and_ENUM_This_paper_describes_the_problem_of_Implementing_Intelligent_Network_Services_in_VoIP_application_with_SIP_Signalli">Implementing Intelligent Network Services in VoIP Application with SIP, TRIP and ENUM This paper describes the problem of Implementing Intelligent Network Services in VoIP application with SIP (Signalling protocol), TRIP (Routing protocol over IP) and ENUM</a></li>
+<li><sup>[21]</sup> <a href="https://archive.org/details/vovida-trip">Vovida FM docs rendered to PDF</a></li>
+<li><sup>[22]</sup> <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr5/vcr5-cr-book/vcr-t1.html#wp1140089459">Cisco IOS Voice Command Reference</a></li>
+<li><sup>[23]</sup> <a href="https://www.cs.columbia.edu/%7Ehgs/research/projects/TRIP-sipd/">Columbia TRIP sipd</a></li>
+<li><sup>[24]</sup> <a href="http://www.cs.columbia.edu/%7Ehgs/research/projects/TRIP/TRIP_Report.html">Columbia TRIP Final Report</a></li>
+<li><sup>[25]</sup> <a href="https://web.archive.org/web/20130127131852/http://www.freenum.org/cookbook/#requesting-an-itad-for-your-domain">Requesting ITAD</a></li>
+<li><sup>[26]</sup> <a href="https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2000/m09/cisco-systems-to-acquire-vovida-networks-and-ipcell-technologies.html">Cisco acquiring Vovida</a></li>
+<li><sup>[27]</sup> <a href="https://web.archive.org/web/20130128052042/http://www.freenum.org/">Freenum.org</a></li>
+<li><sup>[28]</sup> <a href="https://web.archive.org/web/20121213000530/http://freenum.org/cookbook/">The Freenum/ISN Cookbook 2007-10-25</a></li>
+<li><sup>[29]</sup> <a href="https://en.wikipedia.org/wiki/ITAD_Subscriber_Numbers">ITAD Subscriber Numbers</a></li>
+<li><sup>[30]</sup> <a href="https://www.iana.org/assignments/trip-parameters/trip-parameters.xml#table-trip-parameters-5">IANA Registry</a></li>
+<li><sup>[31]</sup> <a href="http://www.netlab.tkk.fi/tutkimus/imelio/papers/VOIP/cocom09f-00wpic.pdf">CTRIP</a></li>
+<li><sup>[32]</sup> <a href="https://se.au/notes/e164org/">Shaun Ewing on e164.org</a></li>
+<li><sup>[33]</sup> <a href="https://web.archive.org/web/20120613230535/http://www.e164.org/">e164.org</a></li>
+<li><sup>[34]</sup> <a href="https://web.archive.org/web/20070918023126/http://www.vovida.org/downloads/vocal/1.5.0/vocal-1.5.0.tar.gz">Vovida announcements</a> C++98 TRIP implementation, almost lost media</li>
 </ul>
 
                 
