@@ -26,6 +26,7 @@ Later additions to the protocol included RFC5115 and RFC5140.
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
+  height: 75vh;
 }
 .scroll-container img {
   padding: 10px;
@@ -156,12 +157,12 @@ because we can.
  - ^\[12\]^ [Netheads vs Bellheads (1996)](https://archive.ph/iICmr#selection-507.0-507.21)
  - ^\[13\]^ [Netheads vs. bellheads redux: the strange victory of SIP over the telephone network (2023)](https://www.devever.net/~hl/sip-victory)
  - ^\[14\]^ [Cullen at Cisco](https://weare.cisco.com/c/r/weare/amazing-stories/amazing-people/cullen-jennings.html)
- - ^\[15\]^ [TRIP](https://www.voip-info.org/trip/)
+ - ^\[15\]^ [Voip-info.org on TRIP](https://www.voip-info.org/trip/)
  - ^\[16\]^ [Past Projects at Columbia University](https://myprojectguide.kundansingh.com/node/7)
  - ^\[17\]^ [Integrating TRIP with sipd](https://web.archive.org/web/20111107010503/http://www.cs.columbia.edu/~kns10/projects/fall2002/trip/)
  - ^\[18\]^ [Re: \[Asterisk-Users\] TRIP / RFC2871](http://lists.digium.com/pipermail/asterisk-dev/2003-March/000114.html)
  - ^\[19\]^ [Re: TRIP deployment?](https://archive.nanog.org/mailinglist/mailarchives/old_archive/2008-12/msg00085.html)
- - ^\[20\]^ [Implementing Intelligent Network Services in VoIP Application with SIP, TRIP and ENUM This paper describes the problem of Implementing Intelligent Network Services in VoIP application with SIP (Signalling protocol), TRIP (Routing protocol over IP) and ENUM](https://www.researchgate.net/publication/346272717_Implementing_Intelligent_Network_Services_in_VoIP_Application_with_SIP_TRIP_and_ENUM_This_paper_describes_the_problem_of_Implementing_Intelligent_Network_Services_in_VoIP_application_with_SIP_Signalli)
+ - ^\[20\]^ [Implementing Intelligent Network Services in VoIP Application with SIP, TRIP and ENUM](https://www.researchgate.net/publication/346272717_Implementing_Intelligent_Network_Services_in_VoIP_Application_with_SIP_TRIP_and_ENUM_This_paper_describes_the_problem_of_Implementing_Intelligent_Network_Services_in_VoIP_application_with_SIP_Signalli)
  - ^\[21\]^ [Vovida FM docs rendered to PDF](https://archive.org/details/vovida-trip)
  - ^\[22\]^ [Cisco IOS Voice Command Reference](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr5/vcr5-cr-book/vcr-t1.html#wp1140089459)
  - ^\[23\]^ [Columbia TRIP sipd](https://www.cs.columbia.edu/~hgs/research/projects/TRIP-sipd/)
@@ -175,5 +176,5 @@ because we can.
  - ^\[31\]^ [CTRIP](http://www.netlab.tkk.fi/tutkimus/imelio/papers/VOIP/cocom09f-00wpic.pdf)
  - ^\[32\]^ [Shaun Ewing on e164.org](https://se.au/notes/e164org/)
  - ^\[33\]^ [e164.org](https://web.archive.org/web/20120613230535/http://www.e164.org/)
- - ^\[34\]^ [Vovida announcements](https://web.archive.org/web/20070918023126/http://www.vovida.org/downloads/vocal/1.5.0/vocal-1.5.0.tar.gz) C++98 TRIP implementation, almost lost media
+ - ^\[34\]^ [Vovida historic announcements](https://web.archive.org/web/20071022171441/http://vovida.org/Top/archive.html)
 
