@@ -85,7 +85,7 @@ So most ITAD numbers could be atributed to this project. There were at most ~170
 
 Post inquiring about the deployment of TRIP and the Freenum project from its author in 2008^\[19\]^ .
 
-TODO: IANA registration histogram
+![ITAD registrations over time](/static/registrations_hist.svg)
 
 ## On the (un)success of TRIP (Telephony Archivist)
 
