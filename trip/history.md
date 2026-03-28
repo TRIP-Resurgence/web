@@ -177,4 +177,6 @@ because we can.
  - ^\[32\]^ [Shaun Ewing on e164.org](https://se.au/notes/e164org/)
  - ^\[33\]^ [e164.org](https://web.archive.org/web/20120613230535/http://www.e164.org/)
  - ^\[34\]^ [Vovida historic announcements](https://web.archive.org/web/20071022171441/http://vovida.org/Top/archive.html)
+ - ^\[35\]^ [Reliable, Scalable and Interoperable Internet Telephony](https://kundansingh.com/papers/thesis.pdf)
+ - ^\[36\]^ [H. Abdallah; B. Daniel. (2006). Implementing Intelligent Network Services in VoIP Application with SIP, TRIP and ENUM. , (), –. doi:10.1109/ICTTA.2006.1684362](https://www.pismin.com/10.1109/ICTTA.2006.1684362)
 
