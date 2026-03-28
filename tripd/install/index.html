@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826906591847">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827971931085">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Installation</title>
@@ -25,14 +25,20 @@
     <meta property="og:site_name" content="TRIP Resurgence">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://tripresurgence.org/tripd/install/">
+    <meta name="twitter:title" content="Installation">
+    <meta name="twitter:description" content="Currently only development builds are supported">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/logo.png" />
-    <link href="../../resources/css/retype.css?v=4.2.0.826906591847" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.4.0.827971931085" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.2.0.826906591847" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.2.0.826906591847" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.827971931085" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.827971931085" data-turbo-eval="false" defer></script>
 
     <meta property="og:image" content="https://tripresurgence.org/static/logo.png">
 
@@ -66,10 +72,9 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
+                    <a id="retype-branding-logo" href="https://tripresurgence.org/" class="flex items-center leading-snug text-xl">
                         <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../../static/logo.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="../../static/logo.png">
+                            <img class="max-h-10 md:inline-block" src="../../static/logo.png" alt="" width="40" height="40">
                         </span>
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">TRIP Resurgence</span>
                     </a>
@@ -183,12 +188,7 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="installation" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#installation">#</doc-anchor-trigger>
-        <span>Installation</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="installation">Installation</h1>
 <p>Currently only development builds are supported</p>
 <div id="installation-code-1" class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none"># clone the repo
@@ -197,19 +197,9 @@ mkdir build &amp;&amp; cd build
 cmake ..
 make -j$(nproc)</code></pre>
 </doc-codeblock></div>
-<doc-anchor-target id="running">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#running">#</doc-anchor-trigger>
-        <span>Running</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="running">Running</h2>
 <p><code translate="no" v-pre>./tripd &lt;config file&gt;</code></p>
-<doc-anchor-target id="todo">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#todo">#</doc-anchor-trigger>
-        <span>TODO</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="todo">TODO</h2>
 <p>When tripd is production ready we will make tarball releases and packages for Debian at least.</p>
 
                 
