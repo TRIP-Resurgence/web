@@ -1,0 +1,16 @@
+﻿# Bringing TRIP back
+
+> The TRIP Resurgence project aims to rescue an old forgotten IETF protocol called TRIP (Telephone Routing over IP) that was imagined by the designers of SIP, the VoIP protocol.
+
+- [Bringing TRIP back](https://tripresurgence.org/index.md): Bringing TRIP back
+- [The TRIP Protocol](https://tripresurgence.org/trip/trip.md): The Telephony Routing over IP protocol, RFC 3219, is an application layer policy-based dynamic routing protocol for telephone prefixes very similar to how BGP is for network prefixes.
+- [tripd](https://tripresurgence.org/tripd/tripd.md): tripd is the TRIP Resurgence Location Server implementation, a telephone routing daemon.
+
+## The TRIP Protocol
+
+- [TRIP: The Battle for Telephone Routing in the Internet Age](https://tripresurgence.org/trip/history.md): Authors: arf20, Amdaith
+
+## tripd
+
+- [Configuration](https://tripresurgence.org/tripd/configuration.md): An example configuration is provided in the repo root as tripd.conf
+- [Installation](https://tripresurgence.org/tripd/install.md): Currently only development builds are supported
