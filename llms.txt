@@ -8,7 +8,7 @@
 
 ## The TRIP Protocol
 
-- [TRIP: The Battle for Telephone Routing in the Internet Age](https://tripresurgence.org/trip/history.md): Authors: arf20, Amdaith
+- [TRIP: The Untold Battle for Telephone Routing in the Internet Age](https://tripresurgence.org/trip/history.md): Authors: arf20, Amdaith
 
 ## tripd
 

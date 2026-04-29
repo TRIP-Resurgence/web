@@ -1,9 +1,13 @@
-# TRIP: The Battle for Telephone Routing in the Internet Age
+# TRIP: The Untold Battle for Telephone Routing in the Internet Age
 
 Authors: arf20, Amdaith
 
-A TRIP down memory lane.
-Piecing together the history of Telephony Routing over IP (TRIP)
+At the beginning, there was nothing. A world of PSTN static trunking and switching
+based in SS7. But thats out of scope.
+
+## A TRIP down memory lane.
+
+### Piecing together the history of Telephony Routing over IP (TRIP)
 
 The framework was published in 2001 by Jonathan Rosenberg, who also authored the SIP protocol,
 and Henning Schulzrinne from Columbia University.
@@ -13,13 +17,12 @@ And the TRIP protocol in 2002 by J. Rosenberg, Dr. Hussein F. Salama, and Matt S
 The idea behind TRIP was how to route telephone calls over the internet by
 having gateways advertise which number blocks they can either serve or route calls
 to via another gateway. TRIP was inspired by BGP and was a nethead ^\[12\]^ way of thinking.
-However, in this case,
-the bellheads won - for now. We’ll come back to this later.
+However, in this case, the bellheads won - for now. We’ll come back to this later.
 
 The framework was originally described in RFC2871 and the protocol detailed in RFC3219.
 Later additions to the protocol included RFC5115 and RFC5140.
 
-## Timeline
+### Timeline
 
 <style>
 .scroll {
@@ -36,7 +39,7 @@ Later additions to the protocol included RFC5115 and RFC5140.
 ![Timeline](/static/timeline.svg)
 :::
 
-## Implementations
+### Implementations
 
 There are five known previous implementations of TRIP.
 
@@ -69,7 +72,7 @@ might have existed as mentioned in a voip-info.org article, by Acme Packet and J
 This article also links to a Cisco TRIP tutorial in packetizer.com^\[8\]^ , together confirming that
 TRIP was not in widespread use.
 
-## Freenum
+### Freenum
 
 Freenum was a project aiming to reuse TRIP ITAD number registry at IANA for a different
 VoIP purposes^\[27\]\[28\]^ , as ITAD Subscriber Numbers (ISNs)^\[29\]^ .
@@ -87,7 +90,7 @@ Post inquiring about the deployment of TRIP and the Freenum project from its aut
 
 ![ITAD registrations over time](/static/registrations_hist.svg)
 
-## On the (un)success of TRIP (Telephony Archivist)
+### On the (un)success of TRIP (Telephony Archivist)
 
 Last night I decided to read through RFC2871 whilst thinking about why they have
 routing hops and to try to make sense of why TRIP was developed, and I think I have some answers.
@@ -122,6 +125,16 @@ telco business model because now just anybody can build out a routing network.
 And on top of that, why would they release control of phone number allocation as
 the TRIP RFC seems to imply being the future.
 
+### CTRIP
+
+A paper proposing a TRIP equivalent for circuit switched networks was published in 2009^\[31\]^ .
+
+### TRIP Resurgence
+
+TRIP Resurgence was
+founded by arf20 and aims to create a modern and supported implementation of SIP,
+because we can.
+
 ## On the (un)success of e164.arpa (Telephony Archivist)
 
 I think telcos don’t like e164 because it makes it harder for them to charge for
@@ -130,16 +143,6 @@ like their strictly controlled gateways so they can bill easier. I’m pretty su
 I read a joke that telcos are really billing companies who reluctantly also run some networks.
 
 There was a free hobbyst alternative zone called e164.org^\[32\]\[33\]^ .
-
-## CTRIP
-
-A paper proposing a TRIP equivalent for circuit switched networks was published in 2009^\[31\]^ .
-
-## TRIP Resurgence
-
-TRIP Resurgence was
-founded by arf20 and aims to create a modern and supported implementation of SIP,
-because we can.
 
 ## Bibliography
 
@@ -179,3 +182,4 @@ because we can.
  - ^\[34\]^ [Vovida historic announcements](https://web.archive.org/web/20071022171441/http://vovida.org/Top/archive.html)
  - ^\[35\]^ [Reliable, Scalable and Interoperable Internet Telephony](https://kundansingh.com/papers/thesis.pdf)
  - ^\[36\]^ [H. Abdallah; B. Daniel. (2006). Implementing Intelligent Network Services in VoIP Application with SIP, TRIP and ENUM. , (), –. doi:10.1109/ICTTA.2006.1684362](https://www.pismin.com/10.1109/ICTTA.2006.1684362)
+ - ^\[37\]^ [State of e164.arpa delegations](http://enumdata.org/)
