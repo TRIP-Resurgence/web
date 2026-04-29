@@ -182,4 +182,6 @@ There was a free hobbyst alternative zone called e164.org^\[32\]\[33\]^ .
  - ^\[34\]^ [Vovida historic announcements](https://web.archive.org/web/20071022171441/http://vovida.org/Top/archive.html)
  - ^\[35\]^ [Reliable, Scalable and Interoperable Internet Telephony](https://kundansingh.com/papers/thesis.pdf)
  - ^\[36\]^ [H. Abdallah; B. Daniel. (2006). Implementing Intelligent Network Services in VoIP Application with SIP, TRIP and ENUM. , (), –. doi:10.1109/ICTTA.2006.1684362](https://www.pismin.com/10.1109/ICTTA.2006.1684362)
+ - ^\[37\]^ [Status of ENUM at asterisk](http://asteriskdocs.org/en/3rd_Edition/asterisk-book-html-chunk/InternetCallRouting_id288915.html)
  - ^\[37\]^ [State of e164.arpa delegations](http://enumdata.org/)
+ - ^\[37\]^ [Defunct community ENUM zone](https://web.archive.org/web/20160411094158/http://www.e164.org/)
