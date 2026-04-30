@@ -1,6 +1,6 @@
 # The TRIP Resurgence Network
 
-The TRIP Resurgence Telephony Network will be an experimental communuty run testbed
+The TRIP Resurgence Telephony Network will be an experimental community-ran testbed
 for the purposes of deploying, testing and characterising the TRIP protocol and the
 implementation of the TRIP Routing Daemon.
 
