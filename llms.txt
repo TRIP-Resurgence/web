@@ -4,18 +4,18 @@
 
 - [Bringing TRIP back](https://tripresurgence.org/index.md): Bringing TRIP back
 - [The TRIP Protocol](https://tripresurgence.org/trip/trip.md): The Telephony Routing over IP protocol, RFC 3219, is an application layer policy-based dynamic routing protocol for telephone prefixes very similar to how BGP is for network prefixes.
-- [The TRIP Resurgence Network](https://tripresurgence.org/net/net.md): The TRIP Resurgence Telephony Network will be an experimental community-ran testbed of TRIP-enabled telephone systems for the purposes of deploying, testing and characterising the TRIP protocol and the implementation of the TRIP Routing Daemon.
 - [tripd](https://tripresurgence.org/tripd/tripd.md): tripd is the TRIP Resurgence Internet Telephony Routing Daemon, an implementation of a TRIP Location Server.
+- [The TRIP Resurgence Network](https://tripresurgence.org/net/net.md): The TRIP Resurgence Telephony Network will be an experimental community-ran testbed of TRIP-enabled telephone systems for the purposes of deploying, testing and characterising the TRIP protocol and the implementation of the TRIP Routing Daemon.
 
 ## The TRIP Protocol
 
 - [TRIP: The Untold Battle for Telephone Routing in the Internet Age](https://tripresurgence.org/trip/history.md): Authors: arf20, Amdaith
 
-## The TRIP Resurgence Network
-
-- [How to join the network](https://tripresurgence.org/net/join.md): You might want to try out the TRIP protocol and our routing daemon. Join our network! (It's the only one)
-
 ## tripd
 
 - [Configuration](https://tripresurgence.org/tripd/configuration.md): An example configuration is provided in the repo root as tripd.conf
 - [Installation](https://tripresurgence.org/tripd/install.md): Currently only development builds are supported
+
+## The TRIP Resurgence Network
+
+- [How to join the network](https://tripresurgence.org/net/join.md): You might want to try out the TRIP protocol and our routing daemon. Join our network! (It's the only one)
