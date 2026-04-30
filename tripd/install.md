@@ -1,3 +1,6 @@
+---
+order: 90
+---
 # Installation
 
 Currently only development builds are supported
