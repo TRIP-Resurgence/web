@@ -1,6 +1,7 @@
 # tripd
 
-tripd is the TRIP Resurgence Location Server implementation, a telephone routing daemon.
+tripd is the TRIP Resurgence Internet Telephony Routing Daemon, an implementation of a
+TRIP Location Server.
 
 As far as we know, it is the only modern maintained implementation in existence, as
 we aim to implement all of the protocol by 2027 hopefully.
