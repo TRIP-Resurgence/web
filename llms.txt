@@ -18,4 +18,4 @@
 
 ## The TRIP Resurgence Network
 
-- [How to join the network](https://tripresurgence.org/net/join.md): You might want to try out the TRIP protocol and our routing daemon. Join our network! (It's the only one)
+- [How to join the network](https://tripresurgence.org/net/join.md): You might want to play around with the TRIP protocol and our routing daemon. Join our network for free! (It's the only one)

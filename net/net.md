@@ -32,3 +32,16 @@ prefix-endpoint
  - endpoint: System determined numbering
 
 Example: `2730-2000`
+
+## ROA
+
+For security and reliability reasons, a ROA will be automatically published by the registry at
+`https://roa.tripresurgence.org/tripnet_roa_tripd.txt`, which you may use with tripd.
+
+## Global Route Collector
+
+The ARFNET ITAD is considered the official global route collector for TRIPNET.
+Everyone is encouraged to peer with ITAD 2005 for the purposes of collecting real-time
+information about route propagation across the network.
+
+The GRC data will be available in the ARFNET ITAD Looking Glass.
