@@ -1,6 +1,6 @@
 # How to join the network
 
-You might want to try out the TRIP protocol and our routing daemon. Join our network! (It's the only one)
+You might want to play around with the TRIP protocol and our routing daemon. Join our network for free! (It's the only one)
 
 ## Step 1. Register an ITAD with IANA
 
@@ -42,13 +42,14 @@ will peer with you and help you get going.
 
 ### Security
 
-It should be on your best interest to take iinto account that the TRIP Routing Daemon is very much not
+It should be on your best interest to take into account that the TRIP Routing Daemon is very much not
 mature curated software and you should take every appropiate action to protect against security concerns.
 
 Such as,
 
  - Running tripd in an isolated VM that cannot connect to anything.
  - When peering, establishing over a VPN tunnel or in your external firewall, allowing only TCP connections from the known IP address of the peer.
+ - Using ROA.
  - Connecting only neccesary systems to be able to query the tripd.
  - Putting in place intrusion detection systems or something.
  - Report any security concerns to the TRIP Resurgence Project to patch tripd.
