@@ -7,11 +7,31 @@
         }
     }
     html:not(.dark) {
-            figure:has(.hide-in-lightmode), p:has(.hide-in-lightmode) {
-                display: none;
-            }
+        figure:has(.hide-in-lightmode), p:has(.hide-in-lightmode) {
+            display: none;
+        }
     }
-    .mw-50rem {
-        max-width: 50rem;
+    .columnize {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        figure {
+            /* TRIP Consortium: ADJUST THESE WHEN ADDING MORE MEMBERS */
+            max-width: min(40%, 300px);
+            min-width: 300px;
+            /*  */
+            img {
+                max-height: 8rem;
+            }
+            /* &:not(:last-of-type) {
+                padding-right: 2rem;
+            } */
+            .caption {
+                font-size: 0.7em;
+                opacity: 0.75;
+            }
+        }
     }
 </style>
