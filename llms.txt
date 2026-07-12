@@ -1,6 +1,6 @@
 ﻿# Bringing TRIP back
 
-> The TRIP Resurgence project aims to rescue an old forgotten IETF protocol called TRIP (Telephone Routing over IP) that was imagined by the designers of SIP, the VoIP protocol.
+> The TRIP Resurgence project aims to rescue an old forgotten IETF protocol called TRIP (Telephone Routing over IP) that was imagined by the designers of SIP, the VoIP protocol, for the purposes of scalable and accesible telephone routing on the internet.
 
 - [Bringing TRIP back](https://tripresurgence.org/index.md): Bringing TRIP back
 - [The TRIP Protocol](https://tripresurgence.org/trip/trip.md): The Telephony Routing over IP protocol, RFC 3219, is an application layer policy-based dynamic routing protocol for telephone prefixes very similar to how BGP is for network prefixes.
