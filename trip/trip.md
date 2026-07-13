@@ -6,7 +6,10 @@ The Telephony Routing over IP protocol, RFC 3219, is an application layer policy
 dynamic routing protocol for telephone prefixes very similar to how BGP is for
 network prefixes.
 
-[RFC 3219](https://datatracker.ietf.org/doc/html/rfc3219)
+ - [RFC 2871 (2000) A Framework for Telephony Routing over IP](/static/rfc/rfc2871.html)
+ - [RFC 3219 (2002) Telephony Routing over IP (TRIP)](/static/rfc/rfc3219.html)
+ - [RFC 5115 (2008) Telephony Routing over IP (TRIP) Attribute for Resource Priority](/static/rfc/rfc5115.html)
+ - [RFC 5140 (2008) A Telephony Gateway Registration Protocol (TGREP)](/static/rfc/rfc5140.html)
 
 TRIP has similar sessions, messages, attributes and route selection algorithm to BGP.
 
